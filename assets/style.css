@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Rubik&display=swap');
+
+
+:root {
+    --cor-fundo: black;
+    --cor-primaria: #E7B341;
+    --cor-segundaria: #CA7D3D;
+    --cor-titulo: #6E2F22;
+    --cor-tercearia: #985030;
+    --cor-hover: #272727;
+    --fonte-primaria: 'Krona One', 'sans-serif';
+    --fonte-segundaria: 'Rubik', 'sans-serif';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: var(--cor-fundo);
+    padding: 2% 2% 1.6% 15%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link {
+    font-family: var(--fonte-segundaria);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.titulo_destaque {
+    color: var(--cor-titulo);
+}
+
+.apresentacao {
+    padding: 6% 25%;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 35px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao_conteudo_texto {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 24px;
+    font-family: var(--fonte-segundaria);
+}
+
+.apresentacao_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_links_subtitulo {
+    font-family: var(--fonte-segundaria);
+    font-weight: 400;
+    size: 24px;
+}
+
+.apresentacao_links_link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-primaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: var(--fonte-segundaria);
+}
+
+.apresentacao_links_link:hover {
+    background-color: var(--cor-hover);
+}
+
+.rodape {
+    color: white;
+    background-color: var(--cor-tercearia);
+    padding: 23px;
+    text-align: center;
+    font-family: var(--fonte-segundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cintya-img {
+    margin-left: 70px;
+    width: 300px;
+    border-radius: 16px;
+}
